@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(29, 186, 218, 0.401);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container > a {
+    font-size: 2rem;
+    color: black;
+}
+
+.search{
+    background-color:beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: .8rem;
+    border-radius: 20px;
+    border: 5px solid yellow;
+}
+
+.search > h1{
+    text-align: center;
+}
+.search > p{
+    color: rgb(4, 132, 175);
+}
+
+.search > input{
+    border-radius: 5px;
+    border: 3px groove rgb(122, 174, 10);
+}
+.container > button{
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.card{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px ridge blue ;
+    border-radius: 10px;
+    height: 270px;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.card-body > h5 {
+    font-size: 1.5rem;
+}
+
+.card-body > h6 {
+    font-size: 1.5rem;
+}
+
+.card-body > p {
+    font-size: 1rem;
+    color: rgb(4, 132, 175);
+}
